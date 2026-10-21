@@ -449,9 +449,13 @@ body.dark .icon-button:hover { background:#254638; }
 
 @media (max-width: 640px) {
   #page4 .verse-line {
-    font-size: calc(var(--arabic-size) * 0.78);
+    font-size: calc(var(--arabic-size) * 1);
     line-height: 2.3;
     padding: 12px 4px;
+  }
+
+  #page11 .jamaah {
+    font-size: 1.24rem;
   }
 }
 
@@ -1147,6 +1151,12 @@ body.dark .icon-button:hover { background:#254638; }
   vertical-align: middle;
 }
 
+@media (max-width: 780px) {
+  #page14 .tasbih-line {
+    font-size: 1.91rem;
+  }
+}
+
 @media (max-width: 640px) {
   #page14 .verse-line {
     font-size: 1.65rem;
@@ -1155,7 +1165,7 @@ body.dark .icon-button:hover { background:#254638; }
   }
 
   #page14 .tasbih-line {
-    font-size: 1.55rem;
+    font-size: 1.35rem;
     line-height: 2.4;
     gap: 0.18em;
     padding: 12px 3px;
